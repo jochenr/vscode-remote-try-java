@@ -8,17 +8,10 @@
 	"build": {
         // Path is relative to the devcontainer.json file.
         "dockerfile": "Dockerfile"
-    }
+        },
 	
 
-	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
-			"installMaven": "true",
-			"mavenVersion": "3.8.6",
-			"installGradle": "false"
-		}
-	},
+	
 
 	// Configure tool-specific properties.
 	"customizations": {
